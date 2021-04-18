@@ -12,7 +12,7 @@ async function IfCarFound(){
         requireTLS: true,
         auth: {
           user: 'testingid295@gmail.com',
-          pass: 'Aditi@123'
+          pass: '******'
         }
       });
       var mailOptions = {
@@ -39,7 +39,7 @@ async function IfCarNotFound(){
         requireTLS: true,
         auth: {
           user: 'testingid295@gmail.com',
-          pass: 'Aditi@123'
+          pass: '******'
         }
       });
       var mailOptions = {
