@@ -29,8 +29,8 @@ let isAva;
     await newTab.click("button.proceed");
     await waitAndClick(".search-result-container", newTab);
     let result = await checkIfCarAvailable(newTab, runOnConsole, ".car-listing");
-    if(result != null) IfCarFound();
-    else IfCarNotFound();
+    if(result != null) IfCarNotFound();
+    else IfCarFound();
 
     }catch(err){
        console.log(err);
